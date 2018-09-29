@@ -1,0 +1,11 @@
+textarea {
+  font-size: 14px;
+  padding: 10px 15px;
+}
+
+.post-button {
+  float: right;
+  margin-top: 20px;
+  margin-right: 5%;
+  width: 90%;
+}

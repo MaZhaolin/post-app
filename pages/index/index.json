@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-tabbar": "/van/tabbar/index",
+    "van-tabbar-item": "/van/tabbar-item/index",
+    "v-account": "../account/index",
+    "v-home": "../home/index",
+    "v-post": "../post/index"
+  }
+}

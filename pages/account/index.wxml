@@ -1,0 +1,4 @@
+<van-cell-group>
+  <van-cell icon="records" title="我的贴子" is-link/>
+  <van-cell icon="chat" title="我的评论" is-link/>
+</van-cell-group>

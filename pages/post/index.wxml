@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<van-cell-group>
+  <van-field
+    value="{{ value }}"
+    placeholder="标题"
+    bind:change="onChange"
+  />
+  <textarea placeholder="内容" class="van-field__input van-field__input van-field__textarea van-field__textarea" />    
+</van-cell-group>
+<van-button class="post-button" type="primary" size="large" plain>发布</van-button>

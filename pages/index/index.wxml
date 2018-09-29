@@ -1,0 +1,12 @@
+<view>
+  <scroll-view scroll-y class="content" >
+    <v-home wx:if="{{ active === 0 }}"></v-home>
+    <v-post wx:if="{{ active === 1 }}"></v-post>
+    <v-account wx:if="{{ active === 2 }}"></v-account>
+  </scroll-view>
+  <van-tabbar active="{{ active }}" bind:change="handleChange">
+    <van-tabbar-item icon="wap-home">首页</van-tabbar-item>
+    <van-tabbar-item icon="records">发帖</van-tabbar-item>
+    <van-tabbar-item icon="contact" info="5">我的</van-tabbar-item>
+  </van-tabbar>
+</view>
