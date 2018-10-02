@@ -1,2 +1,14 @@
 <!--index.wxml-->
-home
+<swiper autoplay>
+  <swiper-item>
+    <image src="/assets/images/a.jpg" width="355" height="200"/>
+  </swiper-item>
+  <swiper-item>
+    <image src="/assets/images/b.jpg" width="355" height="200"/>
+  </swiper-item>
+</swiper>
+<van-row>
+  <van-col span="8">span: 8</van-col>
+  <van-col span="8">span: 8</van-col>
+  <van-col span="8">span: 8</van-col>
+</van-row>

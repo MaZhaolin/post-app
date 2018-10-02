@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "axios": "^0.18.0",
     "vant-weapp": "^0.3.5"
+  },
+  "devDependencies": {
+    "escodegen": "^1.11.0",
+    "esprima": "^4.0.1",
+    "estraverse": "^4.2.0",
+    "webpack-cli": "^3.1.2"
   }
 }

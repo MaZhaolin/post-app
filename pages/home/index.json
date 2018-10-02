@@ -1,5 +1,7 @@
 {
   "usingComponents": {
-    "v-layout": "../../components/layout/index"
-  }
+    "van-row": "vant-weapp/row",
+    "van-col": "vant-weapp/col"
+  },
+  "component": true
 }

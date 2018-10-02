@@ -1,11 +1,12 @@
 textarea {
   font-size: 14px;
   padding: 10px 15px;
+  height: calc(100vh - 204px);
 }
 
 .post-button {
-  float: right;
-  margin-top: 20px;
-  margin-right: 5%;
+  position: absolute;
+  bottom: 10px;
+  left: 5%;
   width: 90%;
 }
